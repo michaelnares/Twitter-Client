@@ -1,4 +1,4 @@
-import twitter4j.*;
+ import twitter4j.*;
 import twitter4j.conf.ConfigurationBuilder;
 import java.util.*;
 
@@ -11,10 +11,10 @@ import java.util.*;
  */
 public class TwitterClient {
 
-    private static final String TWITTER_CONSUMER_KEY = "zE7iBvNSdLeHa032aMZqtA";
-    private static final String TWITTER_SECRET_KEY = "p17OWoxtkfzOfg4Q37Bbv3EGq0ff7SJljOcORKY";
-    private static final String TWITTER_ACCESS_TOKEN = "561089922-KrK6UmFMxQkv1QgCiYrWSVgITCFdZi03XXX2K1Of";
-    private static final String TWITTER_ACCESS_TOKEN_SECRET = "cKmPSzMSeQ1dyQJexWbZyAECMPOHLThKdoPgEs3cZs";
+    private static final String TWITTER_CONSUMER_KEY = "YOUR_CONSUMER_KEY";
+    private static final String TWITTER_SECRET_KEY = "YOUR_SECRET_KEY";
+    private static final String TWITTER_ACCESS_TOKEN = "YOUR_ACCESS_TOKEN";
+    private static final String TWITTER_ACCESS_TOKEN_SECRET = "YOUR_SECRET_ACCESS_TOKEN";
 
 
        public void getTweets() {
